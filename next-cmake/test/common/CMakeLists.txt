@@ -36,7 +36,7 @@ add_library(common-test-utilities OBJECT)
 target_link_libraries(common-test-utilities
     PUBLIC
         roc::rocroller
-        mxDataGenerator
+        roc::mxDataGenerator
         hip::host
         OpenMP::OpenMP_CXX
 )
